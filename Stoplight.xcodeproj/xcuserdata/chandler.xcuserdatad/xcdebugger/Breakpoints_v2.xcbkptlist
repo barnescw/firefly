@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Stoplight/ViewController.swift"
+            timestampString = "518596210.750806"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Stoplight/ViewController.swift"
+            timestampString = "518569763.11375"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2"
+            endingLineNumber = "2">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Stoplight/ViewController.swift"
+            timestampString = "518576465.341458"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9"
+            endingLineNumber = "9">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Stoplight.ViewController.__deallocating_deinit"
+                  moduleName = "Stoplight"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chandler/Desktop/Stoplight/Stoplight/ViewController.swift"
+                  timestampString = "518576519.179883"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Stoplight.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Swift.Optional&lt;Stoplight.ViewController&gt;"
+                  moduleName = "Stoplight"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chandler/Desktop/Stoplight/Stoplight/ViewController.swift"
+                  timestampString = "518576519.181633"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "70">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Stoplight.ViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Swift.Optional&lt;Stoplight.ViewController&gt;"
+                  moduleName = "Stoplight"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chandler/Desktop/Stoplight/Stoplight/ViewController.swift"
+                  timestampString = "518576519.183159"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Stoplight.ViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Stoplight.ViewController&gt;"
+                  moduleName = "Stoplight"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chandler/Desktop/Stoplight/Stoplight/ViewController.swift"
+                  timestampString = "518576519.185553"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Stoplight.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Stoplight.ViewController&gt;"
+                  moduleName = "Stoplight"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chandler/Desktop/Stoplight/Stoplight/ViewController.swift"
+                  timestampString = "518576519.187617"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "31">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
