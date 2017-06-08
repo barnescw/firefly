@@ -21,6 +21,7 @@ class ViewController: NSViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        textScroll.isEditable = false
         curApps()
         var score: NSInteger = 1
         let color = NSData(bytes: &score, length: MemoryLayout<NSInteger>.size)
