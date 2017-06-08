@@ -9,16 +9,19 @@
 import Cocoa
 import ORSSerial
 
+
 class ViewController: NSViewController {
     
     @IBOutlet weak var radio_zone: NSButton!
     @IBOutlet weak var radio_work: NSButton!
     @IBOutlet weak var radio_free: NSButton!
     
+    @IBOutlet var textScroll: NSTextView!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        curApps()
         var score: NSInteger = 1
         let color = NSData(bytes: &score, length: MemoryLayout<NSInteger>.size)
         
@@ -44,8 +47,18 @@ class ViewController: NSViewController {
     }
     
     @IBAction func radioButtonChanged(_ sender: NSButton) {
+        
+        
+        /*for curApp in NSWorkspace.shared().runningApplications {
+            if curApp.isActive {
+                NSLog(curApp)
+            }
+        }*/
+        
+        curApps()
+        
         var score: Int = 1
-        NSLog("hello app")
+        NSLog("Radio button clicked.")
         
         
         switch sender as NSButton {
@@ -73,11 +86,23 @@ class ViewController: NSViewController {
         guard let serialPort = ORSSerialPort(path: "/dev/cu.usbmodem1441") else {
             return
         }
-        //serialPort.baudRate = 9600
-        //serialPort.open()
         serialPort.send(color as Data) // someData is an NSData object
+    }
     
+    func curApps() {
+        let apps = NSWorkspace.shared().runningApplications
         
+        
+        for currentApp in apps.enumerated(){
+            let runningApp = apps[currentApp.offset]
+            
+            if(runningApp.activationPolicy == .regular){
+                print(runningApp.localizedName);
+                let attr = NSAttributedString(string: runningApp.localizedName! + "\n")
+                
+                textScroll.textStorage?.append(attr)
+            }
+        }
         
     }
 
